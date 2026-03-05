@@ -1,10 +1,12 @@
 #define ZMK_POINTING_DEFAULT_SCRL_VAL 150
 
-aliases {
-        led-red = &led0;
-        led-green = &led1;
-        led-blue = &led2;
+/ {
+    aliases {
+        led_red = &led0;
+        led_green = &led1;
+        led_blue = &led2;
     };
+};
 
 #include <behaviors.dtsi>
 #include <behaviors/rgbled_widget.dtsi>
